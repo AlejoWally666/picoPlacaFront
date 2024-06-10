@@ -1,0 +1,20 @@
+{
+  "@@locale": "en",
+
+  "errorLabel": "Error",
+  "okLabel": "OK",
+
+  "loginTitle": "Ingreso",
+  "loginUsername": "Usuario",
+  "loginPassword": "Contraseña",
+  "loginButton": "Ingresar",
+  "loginRegisterUser": "Registrar usuario",
+  "loginForgotPassword": "¿Olvidó su contraseña?",
+  "loginFingerprintLabel": "Huella/FaceID",
+  "loginVersion": "Versión: {version}",
+  "@loginVersion": {
+    "placeholders": {
+      "version": {}
+    }
+  }
+}
