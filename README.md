@@ -1,16 +1,31 @@
-# pico_placa
+Versión utilizada de Flutter
+Flutter (Channel stable, 3.16.5, on Microsoft Windows [Versi¢n 10.0.19045.4412], locale es-ES)
 
-Ejercicio de proceso de seleccion Conecta
+## Configuración del Entorno
 
-## Getting Started
+### 1. Instalar Flutter y Dart
 
-This project is a starting point for a Flutter application.
+Sigue las instrucciones oficiales de Flutter para instalar el Flutter SDK y el Dart SDK:
 
-A few resources to get you started if this is your first Flutter project:
+- [Instrucciones de instalación de Flutter](https://flutter.dev/docs/get-started/install)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2. Verificar la Instalación
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+flutter doctor
+
+_________________________
+### Clonar el proyecto
+git clone https://github.com/AlejoWally666/picoPlacaFront
+cd picoPlacaFront
+
+### Configurar el Canal Web
+flutter channel beta
+flutter upgrade
+flutter config --enable-web
+
+### Actualizar librerías y dependencias
+flutter pub get
+
+### Ejecutar la aplicación
+flutter run -d chrome
